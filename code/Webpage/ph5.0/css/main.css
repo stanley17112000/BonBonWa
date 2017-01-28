@@ -1,0 +1,295 @@
+html,body{
+  height:100%;
+  width:100%;
+  margin:0;
+  background-image: url('../img/background.png'); 
+  background-size: 100%;
+}
+
+.fit{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.input{
+  float:left;
+}
+
+.playingpage{
+  display: none;
+
+}
+
+.game-region{
+  display: none;
+  height:100%;
+  width:100%;
+  background-color:#da4444;
+  margin:0;
+}
+
+.blue,.red{
+  display: none;
+}
+
+.central{
+    width:40%;
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+    z-index: 300;
+}
+
+.bluefull,.redfull{
+  height: 100%;
+  width: 100%;
+}
+
+.central-text{
+    position: absolute;
+    width:15%;
+    top: 48%; bottom:0; left: 42.5%; right:0;
+    margin: 0;
+    z-index: 300;
+}
+
+.central-text2{
+    position: absolute;
+    top: 70%; bottom:0; left: 45%; right:0;
+    z-index: 300;
+}
+
+.dot0{
+    width : 5%;
+    position: absolute;
+    top: 60%; bottom:0; left: 47.5%; right:0;  
+}
+.dot1{
+    width : 5%;
+    position: absolute;
+    top: 65%; bottom:0; left: 47.5%; right:0;  
+}
+.dot2{
+    width : 5%;
+    position: absolute;
+    top: 70%; bottom:0; left: 47.5%; right:0;  
+}
+.dot3{
+    width : 5%;
+    position: absolute;
+    top: 75%; bottom:0; left: 47.5%; right:0;  
+}
+.dot4{
+    width : 5%;
+    position: absolute;
+    top: 80%; bottom:0; left: 47.5%; right:0;  
+}
+
+.left_footer_icon{
+    position: absolute;
+    left: 30%; top: 0%; right:0; top: 0;
+    width: 10%;
+}
+.mid_footer_icon{
+    position: absolute;
+    left: 45%; top: 0%; right:0; top: 0;
+    width: 10%;
+}
+.right_footer_icon{
+    position: absolute;
+    left: 60%; top: 0%; right:0; top: 0;
+    width: 10%;
+}
+
+
+
+
+.footer_icons{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 70%;
+}
+
+.teamicon{
+    width:30%;
+    position: absolute;
+    top: 15%; bottom:0; left: 35%; right:0;
+    z-index: 300;
+
+}
+
+.pendingpage{
+    display: none;
+}
+.pendingfit{
+    width: 100%;
+    height: 100%;
+}
+.bluebc, .redbc{
+    display: none;
+}
+
+.endingpage{
+  display: none;
+}
+
+.rankstuff{
+  display: none;
+  position: absolute;
+  font-size: 50px;
+  margin-top: 10%;
+  width: 100%
+}
+
+.score{
+  margin-top: 15%;
+}
+
+.endingpagefooter{
+  display: none;
+
+}
+
+.score-mid{
+  position: absolute;
+  left:48%;
+}
+
+.score-red{
+  position: absolute;
+  left: 20%;
+}
+
+.score-blue{
+  position: absolute;
+  right: 20%;
+}
+
+.rankicon{
+  width: 10%;
+}
+
+.rankicon-red{
+  position: absolute;
+  left: 10%;
+}
+
+.rankicon-blue{
+  position: absolute;
+  right: 10%;
+}
+
+.banner{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.filter{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.central-btn{
+    width:10%;
+    position: absolute;
+    top: 55%; bottom:0; left: 45%; right:0;
+    margin: 0;
+    z-index: 300;
+}
+
+.homepage{
+  display: none;
+}
+
+.clock{
+    width: 20%;
+    position: absolute; 
+    top: 10%; bottom:0; left: 40%; right:0;
+    margin: 0;
+    z-index: 500;
+}
+
+.dots{
+  position: relative;
+  margin: 4px; 
+  top:10%;
+  width: 5%;
+}
+
+.loadingpage{
+  display: none;
+  height:100%;
+  width:100%;
+  margin:0;
+  background-image: url('../img/loadingpage-2.png'); 
+  background-size: 100%;
+}
+
+.loading{
+
+  height: 15%;
+  margin: auto 13%;
+  position: absolute;
+  top: 0; bottom:0; left: 0; right:0;
+
+
+}
+
+.form-control{
+  width: 30% !important;
+  
+}
+
+.loginStuff{
+  display:none;
+}
+
+.blue-team{
+  position: absolute;
+  left:0;
+  bottom:0;
+  height : 50%;
+  width:100%;
+  background-color:#8dcfd1;
+  z-index:50;
+}
+
+.redwave{
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-color:#da4444;
+  width:100%;
+  height:50%;
+  
+}
+
+.bluewave{
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-color:#8dcfd1;
+  width:100%;
+  height:50%;
+  
+}
+
+.finger{
+  display: none;
+}
+
+.wave{
+  position:absolute;
+  top:-15px;
+  left:0;
+  background-color:blue;
+  width:100%;
+  height: 40%
+}

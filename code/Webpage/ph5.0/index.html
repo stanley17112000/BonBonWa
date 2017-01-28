@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; user-scalable=0;">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		
+	</head>
+
+	<body>  
+
+		<div class='welcomepage'>
+			<img src="img/logo.png" class="central logo">
+			<form class='loginStuff' >
+				<input class="form-control central" id="name" placeholder="Name">
+				<a><img class='central-btn' onclick="showMainPage()" src="img/sign-in page-3.png"></a>
+			</form>
+		</div>
+
+
+		<div class='homepage'>
+			<img src="img/logo.png" class="central logo">
+			<a><img class='central' onclick="sendPlayRequest()" src="img/play.png"></a>
+			<div class ="footer_icons">
+				<img src="img/homepage-4.png" class="left_footer_icon">
+				<img src="img/homepage-5.png" class="mid_footer_icon">
+				<img src="img/homepage-7.png" class="right_footer_icon">
+			</div>
+		</div>
+
+		<div class='loadingpage'>
+
+			<div class='loading'>
+
+				<img src="img/BLUE.png" class='dots' alt="">
+				<img src="img/PURPLE.png" class='dots' alt="">
+				<img src="img/RED.png" class='dots' alt="">
+				<img src="img/BLUE.png" class='dots' alt="">
+				<img src="img/PURPLE.png" class='dots' alt="">
+				<img src="img/RED.png" class='dots' alt="">
+				<img src="img/BLUE.png" class='dots' alt="">	
+			</div>
+
+			<h1 class="central-text2" id="playerCnt"> 5
+			</h1>
+
+		</div>
+
+		<div class='pendingpage'>
+			<img src="img/background_blue.png" class='pendingfit bluebc' >
+			<img src="img/background_red.png" class='pendingfit redbc' >
+			<img src="img/youareblue.png" class="bluebc teamicon" >
+			<img src="img/youarered.png"  class="redbc teamicon" >
+
+
+			<div class="bluebc">
+				<img src="img/BLUE.png" class="countdot dot0">
+				<img src="img/BLUE.png" class="countdot dot1">
+				<img src="img/BLUE.png" class="countdot dot2">
+				<img src="img/BLUE.png" class="countdot dot3">
+				<img src="img/BLUE.png" class="countdot dot4">
+			</div>
+			
+			<div class="redbc">
+				<img src="img/RED.png" class="countdot dot0">
+				<img src="img/RED.png" class="countdot dot1">
+				<img src="img/RED.png" class="countdot dot2">
+				<img src="img/RED.png" class="countdot dot3">
+				<img src="img/RED.png" class="countdot dot4">
+			</div>
+
+		</div>
+
+
+		<div class= 'playingpage' onclick="playingClick()">
+				<img src="img/bluefull.jpg" class="bluebc bluefull">
+				<img src="img/redfull.jpg" class="redbc redfull">
+				<img src="img/clickclick.png" class="central finger">
+
+
+
+				<div class="bluebc redwave">
+					<img src="img/wave_red.gif" class="wave">
+
+				</div>
+				<div class="redbc bluewave" >
+					<img src="img/wave_blue.gif" class="wave">
+				</div>
+
+				<div class="clock" id="clock-container">
+
+				</div>
+
+		</div>
+
+		<div class='endingpage'>
+			<div class="banner">
+				<div class="rankstuff">
+					<img src="img/RED.png" alt="" class="rankicon rankicon-red">
+					<img src="img/BLUE.png" alt="" class="rankicon rankicon-blue">
+					<span class="score score-red">505</span>
+					<span class="score score-mid">:</span>
+					<span class="score score-blue">343</span>
+				</div>
+				<img src="img/endingfilter.png" alt="" class="filter">
+				<img src="img/timesout.png" alt="" class="central">
+
+			</div>
+
+			<div class="endingpagefooter">
+				<div class ="footer_icons">
+					<img src="img/endingpage-9.png" class="left_footer_icon">
+					<img src="img/endingpage-15.png" class="mid_footer_icon">
+					<img src="img/endingpage.png" onclick="returnToMainPage()" class="right_footer_icon">
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+
+	</div>
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="js/ProgressBar.js"></script>
+	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		$(document).ready( init() );
+	</script>
+	</body>
+</html>

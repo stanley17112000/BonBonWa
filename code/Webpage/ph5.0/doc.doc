@@ -1,0 +1,54 @@
+// the initial color of the client
+Server -> Client
+{
+    type: 'init',
+    color: color
+}
+
+// The current state of server
+Server -> Client
+{
+    type: 'state',
+    state: isGameStart,
+    blue:  colorBlue,
+    red:   colorRed
+}
+
+// Count down message
+Server -> Client
+{
+    type: 'count down', 
+    secs: timer  
+}
+
+// Click Event
+Client -> Server
+{
+    type: 'click'
+}
+
+
+
+==================================================
+
+server usage
+
+// start the game
+start [ time remain to start ]
+
+// set the game length
+set time 
+
+// reset the score
+reset
+
+// get the current players' information
+players
+
+// show the people of each team
+cnt
+
+// show the score
+score
+
+
